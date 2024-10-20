@@ -1,0 +1,39 @@
+#opcoes{
+    flex-direction: column;
+}
+ul > li{
+    margin: 5px 0;
+}
+
+.banner > p{
+    top: 2px;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+
+section{
+    flex-flow: column nowrap;
+}
+.card{
+    height: 150px;
+    margin: 10px auto;
+    width: 100%;
+    padding: 0;
+}
+.card > img{
+    width: 150px;
+    float: right;
+    aspect-ratio: 1 / 1;
+}
+.card > h2{
+    font-size: 1em;
+}
+.card > p{
+    font-size: 0.8em;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px auto;
+}

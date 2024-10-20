@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência</title>
+    <link rel="stylesheet" href="estilizacao/desktop.css" media="all">
+    <link rel="stylesheet" href="estilizacao/mobile.css" media="screen and (max-width: 530px)">
+</head>
+<body>
+    <ul id="opcoes">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Hotéis</a></li>
+        <li><a href="#">Pousadas</a></li>
+        <li><a href="#">Passeios</a></li>
+        <li><a href="#">Eventos</a></li>
+    </ul>
+    <div class="banner">
+        <img src="/imagens/bonito.jpg" alt="Praça de bonito">
+        <p id="descricao">Turismo em Bonito</p>
+    </div>
+    <main>
+        <article class="card">
+            <img src="/imagens/mergulho.jpg" alt="mergulhadores mergulhando">
+            <h2>Curso de Mergulho</h2>
+            <p>Neste curso você poderá desfrutar de um mundo totalmente
+                desconhecido e inexplorado pelas maiorias das pessoas. Uma
+                ótima oportunidade de diversão e conhecimento.</p>
+        </article>
+        <article class="card">
+            <img src="/imagens/balneario.jpg" alt="mergulhadores mergulhando">
+            <h2>Balneário</h2>
+            <p>Venha se divertir com toda a família nas águas do Balneário de
+                Bonito. As águas são cristalinas e refrescante, ideal para o seu
+                descanso.</p>
+        </article>
+        <article class="card">
+            <img src="/imagens/boia.jpg" alt="mergulhadores mergulhando">
+            <h2>Descida de Bóia</h2>
+            <p>Nesta aventura inesquecível você poderá contemplar a
+                natureza no conforto de uma bóia que oferece segurança e
+                diversão.</p>
+        </article>
+        <article class="card">
+            <img src="/imagens/gruta.jpg" alt="mergulhadores mergulhando">
+            <h2>Visita na Gruta</h2>
+            <p>Você que é um explorador, conheça as maravilhas da gruta de
+                Bonito. Um lugar deslumbrante, com acesso restrito a pessoas
+                que desejam contemplar as forças que este lugar emana.</p>
+        </article>
+    </main>
+    <div id="container">
+        <h1>Fale conosco</h1>
+        <form action="">
+            <div class="row">
+                <label for="fname">Nome</label>
+                <input type="text" name="first-name" id="fname">
+            </div>
+            <div class="row">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="row">
+                <label for="data-nasc">Data nascimento</label>
+                <input type="date" name="data-de-nascimento" id="data-nasc">
+            </div>
+            <div class="row">
+                <label for="cidade">Cidade</label>
+                <select id="cidade" name="cidade">
+                    <option value="cg">Campo Grande</option>
+                    <option value="co">Corumbá</option>
+                    <option value="tl">Três Lagoas</option>
+                </select>
+            </div>
+            <div class="text-area">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui...">
+                </textarea>
+            </div>
+            <button id="enviar">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p>Visite Bonito</p>
+        <p>desenvolvimento_web1@ifms.edu.br</p>
+    </footer>
+</body>
+</html>
